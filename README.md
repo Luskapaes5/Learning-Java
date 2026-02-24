@@ -1,2 +1,2 @@
 # Learning Java
-Learning the fundamentals of java
+Learning the fundamentals of java and github.
