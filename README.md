@@ -1,5 +1,6 @@
-# Learning Java
+# Learning Java 
 
-Learning the fundamentals of java and github.
+A collection of exercises and concepts for learning Java and GitHub.
 
-This repository will be divided in modules. Each one representing  a basic aspect of java understandment. Each module general explanition is inside the .md file "JavaModuleIndex".
+This repository is divided into modules, each with its own folder and representing a fundamental aspect of Java. 
+The themes of all modules are listed in the JAVA_MODULE_INDEX.md file.
