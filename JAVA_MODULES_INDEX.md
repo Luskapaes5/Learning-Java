@@ -1,53 +1,53 @@
-# Java - Índice Geral dos Fundamentos (Autodidata)
+# Java – General Index of Fundamentals (Self-taught)
 
-## MODULO 1 - Fundamentos da Linguagem
-- Introdução ao Java (JVM, JDK, JRE, compilação e execução)
-- Estrutura básica de um programa
-- Tipos primitivos
-- Variáveis e constantes
-- Operadores
+## MODULE 1 – Language Fundamentals
+- Introduction to Java (JVM, JDK, JRE, compilation, and execution)
+- Basic program structure
+- Primitive types
+- Variables and constants
+- Operators
 
-## MODULO 2 - Controle de Fluxo
-- Estruturas condicionais (if, else, switch)
-- Estruturas de repetição (for, while, do-while)
-- Arrays e arrays multidimensionais
+## MODULE 2 – Control Flow
+- Conditional structures (if, else, switch)
+- Loop structures (for, while, do-while)
+- Arrays and multidimensional arrays
 
-## MODULO 3 - Métodos e Organização
-- Declaração e uso de métodos
-- Parâmetros e retorno
-- Escopo de variáveis
-- Sobrecarga de métodos
+## MODULE 3 – Methods and Organization
+- Declaring and using methods
+- Parameters and return values
+- Variable scope
+- Method overloading
 
-## MODULO 4 - Programação Orientada a Objetos
-- Classes e objetos
-- Atributos e métodos
-- Construtores
-- Encapsulamento (getters e setters)
-- Palavra-chave this
-- Modificadores (static, final, abstract)
-- Herança
-- Polimorfismo
-- Classes abstratas
+## MODULE 4 – Object-Oriented Programming
+- Classes and objects
+- Attributes and methods
+- Constructors
+- Encapsulation (getters and setters)
+- `this` keyword
+- Modifiers (static, final, abstract)
+- Inheritance
+- Polymorphism
+- Abstract classes
 - Interfaces
 
-## MODULO 5 - Estruturas e Biblioteca Padrão
-- Classe String
-- Wrapper classes e autoboxing
+## MODULE 5 – Structures and Standard Library
+- String class
+- Wrapper classes and autoboxing
 - Collections (ArrayList, LinkedList, HashMap, HashSet)
 - Generics
 
-## MODULO 6 - Tratamento de Erros
-- Exceções (try, catch, finally)
-- Criação de exceções personalizadas
+## MODULE 6 – Error Handling
+- Exceptions (try, catch, finally)
+- Creating custom exceptions
 
-## MODULO 7 - Entrada, Saída e Arquivos
+## MODULE 7 – Input, Output, and Files
 - Scanner
-- Leitura de arquivos
-- Escrita de arquivos
+- Reading files
+- Writing files
 
-## MODULO 8 - Conceitos Intermediários
+## MODULE 8 – Intermediate Concepts
 - Enum
 - Lambda expressions
 - Streams API
-- Introdução a multithreading
-- Noções de performance
+- Introduction to multithreading
+- Performance basics
