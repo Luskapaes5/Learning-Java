@@ -1,0 +1,14 @@
+## 1.2 Basic Program Structure
+
+A basic Java program follows a well-defined structure. Every standalone Java application must contain at least one class and one `main` method, which serves as the entry point of execution.
+
+### 1.2.1 Minimal Program Example
+
+```java
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+
+}
