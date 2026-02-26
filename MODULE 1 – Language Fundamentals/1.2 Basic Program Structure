@@ -1,6 +1,7 @@
 ## 1.2 Basic Program Structure
 
-A basic Java program follows a well-defined structure. Every standalone Java application must contain at least one class and one `main` method, which serves as the entry point of execution.
+A basic Java program follows a well-defined structure. Every standalone Java application must contain at least one class and one `main` method,
+which serves as the entry point of execution.
 
 ### 1.2.1 Minimal Program Example
 
@@ -12,3 +13,104 @@ public class Main {
     }
 
 }
+```
+
+### 1.2.2 Structural Components
+
+A Java program is composed of several fundamental elements.
+
+#### Class Declaration
+
+The following line declares a class:
+
+```java
+public class Main
+```
+
+- `public` is an access modifier that allows the class to be accessed from anywhere.
+- `class` is the keyword used to declare a class.
+- `Main` is the class name and must match the file name (`Main.java`).
+
+In Java, all executable code must be defined inside a class.
+
+#### Main Method (Entry Point)
+
+The `main` method is the entry point of a standalone Java application:
+
+```java
+public static void main(String[] args)
+```
+
+The JVM looks for this exact method signature when starting a program.
+
+- `public` allows the JVM to access the method.
+- `static` means the method belongs to the class rather than an instance.
+- `void` indicates that the method does not return a value.
+- `main` is the special method name recognized by the JVM.
+- `String[] args` represents command-line arguments passed to the program.
+
+Without this method, the JVM cannot execute the program.
+
+#### Method Body
+
+Inside the `main` method, we place executable statements:
+
+```java
+System.out.println("Hello, World!");
+```
+
+- `System` is a built-in class from the Java standard library.
+- `out` is a static output stream.
+- `println()` prints text to the console and moves to the next line.
+
+This demonstrates method invocation and standard output.
+
+### 1.2.3 File Naming Rule
+
+In Java, the file name must match the name of the public class.
+
+Example:
+
+```
+Main.java → public class Main
+```
+
+If the names do not match, compilation fails.
+
+### 1.2.4 Compilation and Execution
+
+To compile a Java file:
+
+```bash
+javac Main.java
+```
+
+This generates a bytecode file:
+
+```
+Main.class
+```
+
+To execute the program:
+
+```bash
+java Main
+```
+
+Important:
+
+- Do not include `.class` when running the program.
+- The JVM searches for the `main` method to begin execution.
+
+### 1.2.5 Key Structural Rules
+
+1. All Java code must be inside a class.
+2. Every standalone program must define one `main` method.
+3. Every statement must end with a semicolon (`;`).
+4. Java is case-sensitive.
+5. Curly braces `{}` define blocks of code.
+
+### Summary
+
+A basic Java program consists of a class declaration, a `main` method, and executable statements within that method.
+Understanding this structure is essential before studying variables, data types, and control flow.
