@@ -1,12 +1,17 @@
 public class Exercises {
 
     public static void main(String[] args){
-
-        int idade = 20;
-        double testosterona = 0.9;
-        char letraInicial = 'L';
-        boolean homo = false;
-        final boolean male = true;
-        
+        ex4();
     }
-}
+
+    public static void ex4(){
+        
+        int age = 19;
+        boolean hasLicense = false;
+        boolean canDrive = age >= 18 && hasLicense;
+
+        }
+
+
+    }
+
