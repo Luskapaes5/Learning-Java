@@ -30,17 +30,17 @@ These exercises integrate all concepts from Module 1:
 
 Create a program that declares:
 
-- One integer (`int`)
-- One decimal number (`double`)
-- One character (`char`)
-- One boolean (`boolean`)
-- One constant (`final`)
+- One `int`
+- One `double`
+- One `char`
+- One `boolean`
+- One constant using `final`
 
 Assign meaningful values and print all of them.
 
 Then:
 - Change the non-final variables.
-- Attempt to change the constant. Observe the compiler error.
+- Attempt to change the constant and observe the compiler error.
 
 ---
 
@@ -48,7 +48,7 @@ Then:
 
 Create a program that:
 
-1. Declares two integer variables.
+1. Declares two numeric variables.
 2. Prints:
    - Sum
    - Subtraction
@@ -68,9 +68,9 @@ Then:
 Create a program that:
 
 1. Declares an integer `age`.
-2. Declares a boolean `hasLicense`.
-3. Creates a boolean variable `canDrive` using logical operators.
-4. Print the result.
+2. Declares a boolean `hasPermission`.
+3. Creates a boolean variable `isAllowed` using relational and logical operators.
+4. Prints the result.
 
 Test different values and observe how `&&` and `||` behave.
 
@@ -118,7 +118,7 @@ int result = 5 + 3 * 2;
 
 ---
 
-## Exercise 8 – Small Integrated Program
+## Exercise 8 – Integrated Calculation Program
 
 Create a program that:
 
@@ -130,7 +130,7 @@ Create a program that:
    - Total price
    - Tax amount
    - Final price
-3. Prints a structured output.
+3. Prints a structured numeric output.
 
 Use:
 - Arithmetic operators
@@ -140,29 +140,4 @@ Use:
 
 ---
 
-## Final Challenge (Integration)
-
-Create a small "Student Evaluation" program:
-
-Requirements:
-- Declare:
-  - Student name (String)
-  - Two exam scores (double)
-  - Attendance percentage (int)
-- Calculate average grade.
-- Determine if the student passed:
-  - Average ≥ 7.0
-  - Attendance ≥ 75%
-- Print the final result.
-
-Use:
-- Primitive types
-- Variables
-- Constants (if necessary)
-- Relational operators
-- Logical operators
-- Arithmetic operations
-
----
-
-Completion of these exercises means you have applied every core concept of Module 1 in practice.
+Completion of these exercises means you have applied every core concept of Module 1.
