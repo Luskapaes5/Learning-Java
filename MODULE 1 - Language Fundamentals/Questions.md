@@ -1,11 +1,11 @@
 # Module 1 – Practical Exercises
 
-These exercises integrate all concepts from Module 1:
-- Compilation and execution
-- Program structure
-- Primitive types
-- Variables and constants
-- Operators
+Covers:
+- 1.1 Compilation and execution
+- 1.2 Program structure
+- 1.3 Primitive types
+- 1.4 Variables and constants
+- 1.5 Operators
 
 ---
 
